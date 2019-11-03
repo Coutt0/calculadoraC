@@ -3,7 +3,13 @@
 
 void soma()
 { 
-    //todo
+	float valor1, valor2, soma;
+	printf("\nprimeiro numero: "); //primeiro valor
+	scanf("%f", &valor1);
+	printf("segundo numero: "); //segundo valor
+	scanf("%f", &valor2);
+	result = valor1 + valor2; //vai fazer a soma entre os dois numeros
+	printf("\nResultado da soma: %.2f\n ", soma); //resultado da soma
     system ("pause"); 
     system("cls"); 
     menu(); 
@@ -11,7 +17,13 @@ void soma()
 
 void subtrai()
 {
-    //todo
+	float valor1, valor2, subtrair; //var
+	printf("\nprimeiro numero: "); //primeiro valor
+	scanf("%f", &valor1);
+	printf("segundo numero: "); //segundo valor
+	scanf("%f", &valor2);
+	result = valor1 + valor2; //vai fazer a subtaçao entre os dois numeros
+	printf("\nResultado da soma: %.2f\n ", subtrair); //resultado da subtraçao
     system ("pause");
     system("cls"); 
     menu();
