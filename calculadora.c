@@ -39,7 +39,13 @@ void divide()
 
 void multiplica()
 { 
-    //todo
+	float valor1, valor2, result;
+	printf("\nDigite o 1 valor: ");
+	scanf("%f", &valor1);
+	printf("Digite o 2 valor: ");
+	scanf("%f", &valor2);
+	result = valor1 * valor2;
+	printf("\nResultado: %.2f\n\n ", result);
     system ("pause");
     system("cls");
     menu();
